@@ -325,15 +325,15 @@ ul {
 }
 .customers-link:hover,
 .customers-link:focus {
-  fill: #404bbf;
   border: 1px solid #404bbf;
+}
+
+.customers-link:hover .customers-leter,
+.customers-link:focus .customers-leter {
+  fill: #404bbf;
 }
 .customers-leter {
   fill: currentColor;
-}
-.customers-leter:hover,
-.customers-leter:focus {
-  fill: #404bbf;
 }
 
 /* PORTFOLIO */
