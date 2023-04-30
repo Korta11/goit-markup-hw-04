@@ -323,28 +323,19 @@ ul {
   color: #8e8f99;
 }
 
-/* .customers-item:hover,
-.customers-item:focus {
-  fill: #404bbf;
-  border: 1px solid #404bbf;
-} */
+.customers-leter {
+  width: 104px;
+  height: 56px;
+  fill: currentColor;
+}
 
 .customers-link:hover,
 .customers-link:focus {
-  fill: #404bbf;
   border: 1px solid #404bbf;
+  color: #404bbf;
 }
-.customers-leter:hover,
-.customers-leter:focus {
-  fill: #404bbf;
-}
-
-.customers-link:hover .customers-leter,
-.customers-link:focus .customers-leter {
-  fill: #404bbf;
-}
-.customers-leter {
-  fill: currentColor;
+.customers-leter:hover {
+  color: #404bbf;
 }
 
 /* PORTFOLIO */
