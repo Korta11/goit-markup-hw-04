@@ -40,6 +40,12 @@ ul {
 }
 /* TOP_LINE */
 /* LOGO-STUDIO */
+.header {
+  padding: 10px 0;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .logo {
   display: inline-block;
   margin-right: 76px;
@@ -93,13 +99,7 @@ ul {
 .nav-list-link:focus {
   color: var(--acent-focus-color);
 }
-.header {
-  padding: 10px 0;
-  border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-}
+
 /* AUT_NAV */
 .addres-auth {
   display: flex;
@@ -206,10 +206,6 @@ ul {
   background-color: #f4f4fd;
   margin-bottom: 8px;
 }
-.skills-img {
-  width: 64px;
-  height: 64px;
-}
 
 /* WORK-SECT 3*/
 .work {
@@ -252,9 +248,8 @@ ul {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-  box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .name-title {
   margin: 0;
@@ -300,8 +295,6 @@ ul {
   background-color: #404bbf;
 }
 .social-leter {
-  width: 16px;
-  height: 16px;
   fill: #f4f4fd;
 }
 
@@ -335,9 +328,11 @@ ul {
   border: 1px solid #404bbf;
 }
 .customers-leter {
-  width: 104px;
-  height: 56px;
   fill: currentColor;
+}
+.customers-leter:hover,
+.customers-leter:focus {
+  fill: #404bbf;
 }
 
 /* PORTFOLIO */
@@ -460,6 +455,8 @@ ul {
 .title-footer {
   max-width: 264px;
   font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
   padding-bottom: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
