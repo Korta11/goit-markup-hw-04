@@ -325,6 +325,7 @@ ul {
 }
 .customers-link:hover,
 .customers-link:focus {
+  fill: #404bbf;
   border: 1px solid #404bbf;
 }
 .customers-leter {
@@ -459,12 +460,11 @@ ul {
   max-width: 264px;
   font-size: 16px;
   font-weight: 500;
+  margin-top: 0;
   margin-bottom: 16px;
-  padding-bottom: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin: 0;
 }
 .foother-container {
   display: flex;
